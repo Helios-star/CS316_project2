@@ -9,11 +9,36 @@ body {
 .taskbar {
     background-color: black;
     height: 45px;
+
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    z-index: 1000;
 }
+
 .menu-option {
-    width: 30px;
+    padding: 10px 15px;
+}
+
+.menu-option a:link {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.menu-option a:visited {
+    color: lightpink;
+}
+
+.menu-option a:hover {
+    color: white;
+    text-decoration: underline;
 }
 a {
     font-size: 20px;
