@@ -35,16 +35,11 @@ body {
     color: white;
     text-decoration: underline;
 }
-a {
-    font-size: 20px;
-    color: #fafafa;
-    text-decoration: none;
-    border: 1px solid var(--border-temp);  
-}
 .title {
-    color: white;
+    color: black;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
+    text-shadow: 2px 2px 4px #000000;
 }
 #first-letter {
     font-size: 100px;
