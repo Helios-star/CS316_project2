@@ -5,21 +5,20 @@
 }
 body {
     background-color: gray;
+    font-size: 16pt;
+    padding-top: 45px;
 }
 .taskbar {
     background-color: black;
     height: 45px;
-
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 30px;
-
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-
     z-index: 1000;
 }
 
@@ -45,19 +44,4 @@ a {
     color: #fafafa;
     text-decoration: none;
     border: 1px solid var(--border-temp);  
-}
-.box {
-    border-radius: 10px;
-    margin: 10px 20px;
-}
-.flex-box {
-    display: flex;
-    flex-flow: row balance;
-    align-content: start;
-    overflow: hidden;
-}
-.dashboard-box {
-    padding: 10px 0px;
-    height: 650px;
-    background-image: var(--temp-image);
 }
